@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>vue-test</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <!--<script src='https://cdn.bootcss.com/socket.io/2.0.3/socket.io.js'></script>
+  <script src='//cdn.bootcss.com/jquery/1.11.3/jquery.js'></script>
+  <script>
+    $(document).ready(function () {
+      // 连接服务端
+      var socket = io('http://'+document.domain+':2120');
+      // 连接后登录
+      socket.on('connect', function(){
+        socket.emit('login', uid);
+      });
+      // 后端推送来消息时
+      socket.on('new_msg', function(msg){
+        console.log('start json');
+        console.log(msg);
+        r = decodeURI(msg);
+        console.log(r);
+        console.log(typeof r);
+        t=eval('('+r+')');
+        console.log(typeof t);
+        console.log(t);
+        //var b = eval("("+msg+")");
+        console.log('end json');
+        $('#content').html('收到消息：'+msg);
+        $('.notification.sticky').notify();
+      });
+      // 后端推送来在线数据时
+      socket.on('update_online_count', function(online_stat){
+        $('#online_box').html(online_stat);
+        console.log(online_stat);
+      });
+    });
+  </script>-->
+</html>

@@ -1,0 +1,60 @@
+@charset "utf-8";
+.chartTable{background:#fafafa;border-collapse:collapse;}
+.chartTable th,.chartTable td{border:1px solid #dfdfdf;vertical-align:middle;white-space:nowrap;text-align:center;height:28px;padding-left: 4px;padding-right: 4px;}
+.chartTable th{background-color:#fff6e5;font-weight:normal;font-family:Arial;}
+.chartTable td{line-height:28px;font-family:"宋体";}
+.chartTable .sort_up,.chartTable .sort_down{cursor:pointer;}
+.chartTable .sort_up strong,.chartTable .sort_down strong{padding-right:13px;background:url(../images/chart-icon.png) 30px 1px no-repeat;font-weight:bold;}
+.chartTable .sort_up strong{background-position:31px -1px;}
+.chartTable .sort_down strong{background-position:31px -18px;}
+.chartTable th.bd,.chartTable td.bd,.staticTable th.bd,.staticTable td.bd{
+  width: 1px;
+  background: #dbdbdb;
+  font-size: 0;
+  padding: 0px;
+}
+.c_ba2636{
+  color: #ba2636;
+}
+/*==============背景图 begin==================*/
+.chartTable .ball_red,.chartTable .ball_brown,.chartTable .ball_orange,.chartTable .ball_blue,
+.chartTable .ball_cornflower,.chartTable .ball_goral,.chartTable .ball_green,.chartTable .ball_gray,.chartTable .ball_plum
+{background-image:url(../images/chartball.png);background-repeat:no-repeat; font-size:12px;}
+
+.chartTable .f_red{background-color:#fffcf5;color:#D2B0B0;}
+.chartTable .f_blue{color:#B6BCCB;}
+.chartTable .f_brown{color: #d6bd9a;}
+.chartTable .f_gray {color: #ccc;}
+.chartTable .f_green {color: #abc2c3;}
+.chartTable .f_darkRed{color:#d2b0b0}/*红色      原yl01*/
+.chartTable .f_purple{color:#c8b7cd}/*紫色  原yl14*/
+.chartTable .f_seaGreen{color:#abc2a9;}/*海洋绿    原yl15*/
+.chartTable .f_lightBlue{color:#aed2fd;}/*淡蓝色    原y105*/
+
+.chartTable .ball_blue{background-position:center -164px;color:#fff;font-weight:bold;}
+.chartTable .ball_red{background-color:#fffcf5;background-position:center -136px;color:#fff;font-weight:bold;}
+.chartTable .ball_brown{background-color:#fffcf5;background-position:center -247px;color:#fff;font-weight:bold;}
+.chartTable .ball_orange{background-color:#fffcf5;background-position:center -220px;color:#fff;font-weight:bold;}
+.chartTable .ball_cornflower{background-color:#fffcf5;background-position:center -415px;color:#fff;font-weight:bold;}
+.chartTable .ball_goral{background-color:#fffcf5;background-position:center -387px;color:#fff;font-weight:bold;}
+.chartTable .ball_brown{background-color:#fffcf5;background-position:center -247px;color:#fff;font-weight:bold;}
+.chartTable .ball_green{background-color:#fffcf5;background-position:center -191px;color:#fff;font-weight:bold;}
+.chartTable .ball_gray{background-color:#fffcf5;background-position:center -331px;color:#fff;font-weight:bold;}
+.chartTable .ball_plum{background-color:#fffcf5;background-position:center -359px;color:#fff;font-weight:bold;}
+
+/*==============数据统计 begin==================*/
+.dataAnalysisBox{float:left;width:100%;border:1px solid #ccc;background:url(../images/chart-bg.png) left top repeat-x;text-align:right;padding:6px 0 4px 0;}
+.dataAnalysisBox strong{float:left;font-weight:bold;text-indent:15px;color:#417dc3;}
+.dataAnalysisBox input,.dataAnalysisBox label{cursor:pointer;}
+
+.staticTable{width:100%;border-collapse:collapse;background:#fafafa;}
+.staticTable th,.staticTable td{border:1px solid #dfdfdf;height:26px;font-family:"宋体";text-align:center;}
+.staticTable th{background-color:#fff6e5;font-weight:normal;}
+.staticTable thead th{font-weight:bold;}
+.staticTable thead td{background-color:#fff6e5;}
+.staticTable .bg-yellow{background-color:#fffcf5;}
+.staticTable td.appears{height:70px;font-size:12px;vertical-align:bottom;line-height:10px;}
+.staticTable td.appears img{vertical-align:bottom;}
+/*==============数据统计 end==================*/
+/*画线容器*/
+#chartLine{float:left;clear:both;}
